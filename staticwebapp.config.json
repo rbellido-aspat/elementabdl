@@ -1,0 +1,322 @@
+{
+ "trailingSlash": "auto",
+ "routes": [
+  {
+   "route": "/articulos/i-d/435-fibra-basalto-refuerzo-estructural",
+   "redirect": "/articulos/refuerzo-estructural-articulo/435-fibra-basalto-refuerzo-estructural/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/i-d/436-barras-fibra-carbono-ambientes-agresivo",
+   "redirect": "/articulos/refuerzo-estructural-articulo/436-barras-fibra-carbono-ambientes-agresivo/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/i-d/441-adherencia-recubrimientos-bajo-norma-nch-2471-of2000",
+   "redirect": "/articulos/i-d/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/reparacion-estructural/111-gateo-controlado-de-estructuras",
+   "redirect": "/articulos/reparacion-estructural/",
+   "statusCode": 301
+  },
+  {
+   "route": "/component/contact/contact/2",
+   "redirect": "/contacto/",
+   "statusCode": 301
+  },
+  {
+   "route": "/contacto-grupobdl",
+   "redirect": "/contacto/",
+   "statusCode": 301
+  },
+  {
+   "route": "/en/home-2",
+   "redirect": "/en/",
+   "statusCode": 301
+  },
+  {
+   "route": "/en/services/carbon-fiber/313-carbon-fiber-repairs",
+   "redirect": "/en/services/carbon-fiber/",
+   "statusCode": 301
+  },
+  {
+   "route": "/en/services/heritage-reinstatement/314-heritage-reinstatement",
+   "redirect": "/en/services/heritage-reinstatement/",
+   "statusCode": 301
+  },
+  {
+   "route": "/en/services/rental-machinery-equipment",
+   "redirect": "/en/services/",
+   "statusCode": 301
+  },
+  {
+   "route": "/en/services/structural-reinforcement/310-structural-reinforcement-tecnic",
+   "redirect": "/en/services/structural-reinforcement/",
+   "statusCode": 301
+  },
+  {
+   "route": "/home-3",
+   "redirect": "/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php",
+   "redirect": "/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/articulos",
+   "redirect": "/articulos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/articulos/auscultacion",
+   "redirect": "/articulos/auscultacion/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/articulos/fibra-de-carbono",
+   "redirect": "/articulos/fibra-de-carbono/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/articulos/i-d",
+   "redirect": "/articulos/i-d/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/articulos/refuerzo-estructural-articulo",
+   "redirect": "/articulos/refuerzo-estructural-articulo/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/articulos/reparacion-estructural",
+   "redirect": "/articulos/reparacion-estructural/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/articulos/revestimiento-industrial",
+   "redirect": "/articulos/revestimiento-industrial/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/contacto",
+   "redirect": "/contacto/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/empresa",
+   "redirect": "/empresa/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/empresa/equipo",
+   "redirect": "/empresa/equipo/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/empresa/registros-membresias",
+   "redirect": "/empresa/registros-membresias/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/en",
+   "redirect": "/en/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/en/articles",
+   "redirect": "/en/articles/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/en/company",
+   "redirect": "/en/company/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/en/contact",
+   "redirect": "/en/contact/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/en/faq-en",
+   "redirect": "/en/faq-en/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/en/projects",
+   "redirect": "/en/projects/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/en/services",
+   "redirect": "/en/services/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/faq",
+   "redirect": "/faq/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/faq/laminas-de-fibra-de-carbono",
+   "redirect": "/faq/laminas-de-fibra-de-carbono/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/faq/refuerzos-estructurales",
+   "redirect": "/faq/refuerzos-estructurales/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/faq/revestimientos-industriales",
+   "redirect": "/faq/revestimientos-industriales/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/faq/tejidos-de-fibra-de-carbono",
+   "redirect": "/faq/tejidos-de-fibra-de-carbono/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/proyectos",
+   "redirect": "/proyectos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/proyectos/comercio",
+   "redirect": "/proyectos/comercio/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/proyectos/edificios-publicos",
+   "redirect": "/proyectos/edificios-publicos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/proyectos/habitacional",
+   "redirect": "/proyectos/habitacional/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/proyectos/industrial",
+   "redirect": "/proyectos/industrial/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/proyectos/infraestructura-vial",
+   "redirect": "/proyectos/infraestructura-vial/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/servicios",
+   "redirect": "/servicios/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/servicios/fibra-de-carbono",
+   "redirect": "/servicios/fibra-de-carbono/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/servicios/i-d",
+   "redirect": "/servicios/i-d/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/servicios/refuerzo-estructural",
+   "redirect": "/servicios/refuerzo-estructural/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/servicios/rehabilitacion-patrimonial",
+   "redirect": "/servicios/rehabilitacion-patrimonial/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/servicios/reparacion-estructural",
+   "redirect": "/servicios/reparacion-estructural/",
+   "statusCode": 301
+  },
+  {
+   "route": "/index.php/servicios/revestimiento-industrial",
+   "redirect": "/servicios/revestimiento-industrial/",
+   "statusCode": 301
+  },
+  {
+   "route": "/inicio",
+   "redirect": "/",
+   "statusCode": 301
+  },
+  {
+   "route": "/proyectos/habitacional/418-revestimiento-piscina-poliurea",
+   "redirect": "/proyectos/habitacional/418-revestimiento-industrial-piscina-poliurea/",
+   "statusCode": 301
+  },
+  {
+   "route": "/proyectos/industrial/415-revestimiento-poliurea-truck-shop-el-teniente-codelco",
+   "redirect": "/proyectos/industrial/415-revestimiento-poliurea-elteniente/",
+   "statusCode": 301
+  },
+  {
+   "route": "/proyectos/industrial/416-revestimiento-poliurea-salas-pasillos",
+   "redirect": "/proyectos/industrial/416-revestimiento-poliurea-salas/",
+   "statusCode": 301
+  },
+  {
+   "route": "/proyectos/industrial/417-revestimiento-pasillos-tecnicos-costanera-center",
+   "redirect": "/proyectos/industrial/417-revestimiento-costanera-center/",
+   "statusCode": 301
+  },
+  {
+   "route": "/refuerzo-estructural",
+   "redirect": "/servicios/refuerzo-estructural/",
+   "statusCode": 301
+  },
+  {
+   "route": "/servicios/102-articulos",
+   "redirect": "/articulos/fibra-de-carbono/102-componente-refuerzo-fibra-carbono/",
+   "statusCode": 301
+  },
+  {
+   "route": "/servicios/arriendo-equipos",
+   "redirect": "/servicios/",
+   "statusCode": 301
+  },
+  {
+   "route": "/servicios/conocimiento/103-diseno-de-un-refuerzo-estructural-con-fibra-de-carbono.html",
+   "redirect": "/articulos/i-d/103-diseno-de-un-refuerzo-estructural-con-fibra-de-carbono/",
+   "statusCode": 301
+  },
+  {
+   "route": "/servicios/fibra-de-carbono/85-aplicaciones-refuerzo",
+   "redirect": "/servicios/fibra-de-carbono/",
+   "statusCode": 301
+  },
+  {
+   "route": "/servicios/pulido-de-pisos-de-hormigon",
+   "redirect": "/servicios/",
+   "statusCode": 301
+  },
+  {
+   "route": "/servicios/rehabilitacion-patrimonial/259-rehabilitacion-patrimonial",
+   "redirect": "/servicios/rehabilitacion-patrimonial/",
+   "statusCode": 301
+  }
+ ],
+ "responseOverrides": {
+  "404": {
+   "rewrite": "/404.html"
+  }
+ },
+ "globalHeaders": {
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": "strict-origin-when-cross-origin"
+ },
+ "mimeTypes": {
+  ".json": "application/json"
+ }
+}

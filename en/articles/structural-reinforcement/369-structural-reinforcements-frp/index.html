@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Structural Reinforcements with FRP | Elementa BDL</title>
+<meta name="description" content="The reinforced concrete structure must meet several requirements, which may not be fully known at design moment.">
+<link rel="canonical" href="https://www.elementabdl.cl/en/articles/structural-reinforcement/369-structural-reinforcements-frp/">
+<link rel="alternate" hreflang="en" href="https://www.elementabdl.cl/en/articles/structural-reinforcement/369-structural-reinforcements-frp/">
+<link rel="alternate" hreflang="es" href="https://www.elementabdl.cl/">
+<meta property="og:title" content="Structural Reinforcements with FRP | Elementa BDL">
+<meta property="og:description" content="The reinforced concrete structure must meet several requirements, which may not be fully known at design moment.">
+<meta property="og:url" content="https://www.elementabdl.cl/en/articles/structural-reinforcement/369-structural-reinforcements-frp/">
+<meta property="og:image" content="https://www.elementabdl.cl/images/logo-elementa2.png">
+<link rel="icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site-header">
+<div class="topbar"><div class="wrap topbar-in">
+<a class="logo" href="/en/"><img src="/images/logo-elementa2.png" alt="Elementa Soluciones Estructurales, refuerzo estructural con fibra de carbono" width="300" height="85"></a>
+<div class="top-tools">
+<div class="social"><a href="https://twitter.com/GrupoBDLChile" target="_blank" rel="noopener" aria-label="Twitter"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 2H22l-7.4 8.5L23 22h-6.8l-5.3-6.9L4.8 22H1.7l7.9-9.1L1 2h7l4.8 6.3L18.9 2zm-1.2 18h1.9L6.4 3.9H4.4L17.7 20z"/></svg></a><a href="https://www.facebook.com/elementabdl" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8V6c0-.9.6-1.1 1-1.1h2.6V1H14c-4 0-4.9 3-4.9 4.9V8H6.8v4h2.3v11H14V12h3.3l.4-4H14z"/></svg></a><a href="https://www.linkedin.com/company/elementa-soluciones-estructurales/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5A2.5 2.5 0 1 1 5 8.5a2.5 2.5 0 0 1-.02-5zM3 9.8h4V21H3V9.8zm7 0h3.8v1.6h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5c0-1.2 0-2.8-1.7-2.8S14 14.6 14 15.9V21h-4V9.8z"/></svg></a><a href="https://www.youtube.com/user/elementabdl" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12a31 31 0 0 0 .5 4.8 3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.7 15.1V8.9l5.8 3.1-5.8 3.1z"/></svg></a></div>
+<div class="langs"><a href="/" hreflang="es" >ES</a><a href="/en/articles/structural-reinforcement/369-structural-reinforcements-frp/" hreflang="en" aria-current="true">EN</a></div>
+</div></div></div>
+<div class="navbar"><div class="wrap navbar-in">
+<button class="nav-toggle" aria-expanded="false" aria-controls="mainnav"><span></span><span></span><span></span><em>Menu</em></button>
+<nav id="mainnav" class="mainnav"><ul class="menu"><li><a href="/en/">Home</a></li><li class="has-sub"><a href="/en/company/">Company</a><button class="sub-toggle" aria-label="Company" aria-expanded="false"></button><ul class="sub"><li><a href="/en/company/team-elementa/">Team Elementa</a></li><li><a href="/en/company/records-and-memberships/">Records and memberships</a></li></ul></li><li class="has-sub"><a href="/en/services/">Services</a><button class="sub-toggle" aria-label="Services" aria-expanded="false"></button><ul class="sub"><li><a href="/en/services/i-d-i-service/">I+D+I</a></li><li><a href="/en/services/industrial-revetment/">Industrial Revetment </a></li><li><a href="/en/services/structural-repairs/">Structural Repair</a></li><li><a href="/en/services/structural-reinforcement/">Structural Reinforcement</a></li><li><a href="/en/services/carbon-fiber/">Carbon Fiber</a></li><li><a href="/en/services/heritage-reinstatement/">Heritage Reinstatement</a></li><li><a href="/en/services/polished-concrete-floor/">Polished Concrete Floor</a></li></ul></li><li class="has-sub"><a href="/en/projects/">Projects</a><button class="sub-toggle" aria-label="Projects" aria-expanded="false"></button><ul class="sub"><li><a href="/en/projects/housings-and-buildings/">Housings and Buildings</a></li><li><a href="/en/projects/industrial/">Industrial</a></li><li><a href="/en/projects/public-buildings/">Public Buildings</a></li><li><a href="/en/projects/road-infrastructure/">Road Infrastructure</a></li><li><a href="/en/projects/commerce/">Commerce</a></li></ul></li><li class="has-sub"><a href="/en/articles/" class="active">Articles</a><button class="sub-toggle" aria-label="Articles" aria-expanded="false"></button><ul class="sub"><li><a href="/en/articles/auscultation/">Auscultation Articles</a></li><li><a href="/en/articles/carbon-fiber/">Carbon Fiber Articles</a></li><li><a href="/en/articles/industrial-revetment/">Industrial Revetment Articles</a></li><li><a href="/en/articles/structural-repairs/">Structural Repairs Articles</a></li><li><a href="/en/articles/structural-reinforcement/" class=active>Structural Reinforcement Articles</a></li><li><a href="/en/articles/i-d-i/">I+D+I Articles</a></li></ul></li><li class="has-sub"><a href="/en/faq-en/">FAQ</a><button class="sub-toggle" aria-label="FAQ" aria-expanded="false"></button><ul class="sub"><li><a href="/en/faq-en/structural-reinforcement/">Structural Reinforcement</a></li><li><a href="/en/faq-en/carbon-fiber-fabrics/">Carbon Fiber Fabrics</a></li><li><a href="/en/faq-en/carbon-fiber-wrap/">Carbon Fiber Wrap</a></li></ul></li><li><a href="/en/contact/">Contact</a></li></ul></nav>
+<form class="search" action="/en/search/" method="get" role="search"><input type="search" name="q" placeholder="Search the site..." aria-label="Search"><button aria-label="Search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 1 0 4.9 14.3l5.4 5.4 1.4-1.4-5.4-5.4A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12 6 6 0 0 1 0-12z"/></svg></button></form>
+</div></div>
+</header>
+<main id="main" class="wrap content">
+<nav class="crumbs" aria-label="breadcrumb"><a href="/en/">Home</a> <span>/</span> <a href="/en/articles/">Articles</a> <span>/</span> <a href="/en/articles/structural-reinforcement/">Structural Reinforcement Articles</a> <span>/</span> <span aria-current="page">Structural Reinforcements with FRP</span></nav>
+<article class="article"><h1>Structural Reinforcements with FRP</h1><p class="meta">Structural reinforcement articles</p><p>REINFORCEMENT CONCRETE STRUCTURES WITH FRP</p>
+<p>INTRODUCTION</p>
+<p>During his lifetime, the reinforced concrete structure must meet several requirements, which may not be fully known at design moment. Therefore, you may need at some point the structural reinforcement by the following reasons:</p>
+<ul>
+<li>
+<div align="justify">Increase in load.</div>
+</li>
+<li>
+<div align="justify">Damage to structural parts (aging building materials, fire damage, corrosion of reinforcing steel, impact of vehicles).</div>
+</li>
+<li>
+<div align="justify">Improving serviceability (limitation of deformations, effort reduction in the steel, reducing the width of the cracks).</div>
+</li>
+<li>
+<div align="justify">Modification of the structural system. Design errors or construction calculation. </div>
+<div align="justify">Various methods for strengthening, such as adhesion of steel sheets with epoxy, installing an external prestressing system, increasing the section of concrete with or without additional armor (using shotcrete, for example).</div>
+</li>
+</ul>
+<h3>Adcos CARBOSTRIP SYSTEM. </h3>
+<p align="justify">Since 1967, it has been possible to increase the resistance to bending and cutting of existing reinforced concrete structures by means of externally bonded steel bands. Although the method has a "State of the Art", recorded the same advantages and also some disadvantages (Table N ° 1, figures No.1 and No. 2).</p>
+
+<div class="table-wrap"><table style="width: 337px;" border="1" cellspacing="0" cellpadding="3">
+<tbody>
+<tr>
+<td bgcolor="#666666" width="133" height="25">
+<div align="center"><strong>criterion</strong></div>
+</td>
+<td bgcolor="#666666" width="133"><strong>Reinforced ADCOS CARBOSTRIP</strong></td>
+<td bgcolor="#666666" width="134">
+<div align="center">Reinforcement with Band Steel </div>
+</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20"><b>Weight </b></td>
+<td width="133" height="20">low</td>
+<td width="134" height="20">High</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="133" height="20"><strong>Resistance to flexion</strong></td>
+<td width="133" height="20">More High</td>
+<td width="134" height="20">High</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20"><strong>Thickness</strong></td>
+<td width="133" height="20">Very low</td>
+<td width="134" height="20">LOW</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="133" height="20"><strong>Corrosión</strong></td>
+<td width="133" height="20">No</td>
+<td width="134" height="20">Yes</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20"><strong>Length bands</strong></td>
+<td width="133" height="20">Any</td>
+<td width="134" height="20">Limited</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="133" height="20"><strong>Drive</strong></td>
+<td width="133" height="20">Flexible, easy</td>
+<td width="134" height="20">Dificult, rigid</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20"><strong>Load capacity</strong></td>
+<td width="133" height="20">In longitudinal direction only</td>
+<td width="134" height="20">Any direction</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="133" height="20"><strong>Junction</strong></td>
+<td width="133" height="20">Easy</td>
+<td width="134" height="20">complex</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20"><strong>Behavior </strong><br /><strong>fatigue</strong></td>
+<td width="133" height="20">outstanding</td>
+<td width="134" height="20">appropriate</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="133" height="20"><strong>Cost of materials</strong></td>
+<td width="133" height="20">High</td>
+<td bgcolor="#e9e9e9" width="134" height="20">Low</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20"><strong>Instalation</strong></td>
+<td width="133" height="20">Low</td>
+<td width="134" height="20">High</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="133" height="20">Aplication</td>
+<td bgcolor="#e9e9e9" width="133" height="20">without tools</td>
+<td bgcolor="#e9e9e9" width="134" height="20">Lifting equipment and fasteners</td>
+</tr>
+</tbody>
+</table></div>
+<p><br />Table N°1: Advantages and disadvantages of CFRP reinforcement system compared with steel flat bars.</p>
+<h3 align="justify">PRFC Bands</h3>
+<div class="table-wrap"><table style="width: 343px;" border="1" cellspacing="0" cellpadding="3">
+<tbody>
+<tr bgcolor="#666666">
+<td colspan="2" height="25">
+<div align="center">LÁMINAS DE ADCOS CARBOSTRIP</div>
+</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="200" height="20">Color</td>
+<td width="200" height="20">Negro/blanco</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="200" height="20">Contenido volumétrico de fibras</td>
+<td width="200" height="20">&gt; 68%</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="200" height="20">Corrosión</td>
+<td width="200" height="20">Invulnerable</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="200" height="20">Módulo de elasticidad longitudinal</td>
+<td width="200" height="20">&gt; 4500 - 5500 N/mm2</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="200" height="20">Resistencia a la tracción</td>
+<td width="200" height="20">&gt; 23 N/mm2</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="200" height="20">Deformación específica a la rotura</td>
+<td width="200" height="20">&gt; 1.70%</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="200" height="20">Densidad</td>
+<td width="200" height="20">1.50g/cm3</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="200" height="20">Fluencia</td>
+<td width="200" height="20">Inexistente. Rotura frágil</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td height="20">Resistencia a la fatiga</td>
+<td height="20">Sobresaliente</td>
+</tr>
+</tbody>
+</table></div>
+<p><br />Table No. 2: Technical data sheets of CFRP</p>
+
+<h4>Epoxi formulation</h4>
+<div class="table-wrap"><table style="width: 340px;" border="1" cellspacing="0" cellpadding="3">
+<tbody>
+<tr bgcolor="#666666">
+<td height="25">
+<div align="center">PARÁMETRO</div>
+</td>
+<td height="25">VALORES</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="200" height="20">Densidad (A+B)</td>
+<td width="200" height="20">1.77g/cm3</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="200" height="20">Pot-life*</td>
+<td width="200" height="20">30 minutos</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="200" height="20">Módulo de elasticidad*</td>
+<td width="200" height="20">4500 - 5500 N/mm2</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="200" height="20">Esfuerzo de adherencia (húmedo)*</td>
+<td width="200" height="20">
+<p>3 N/mm2</p>
+<p>Falla del hormigón</p>
+</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="200" height="20">Resistencia a la flexión</td>
+<td width="200" height="20">
+<p>23 N/mm2</p>
+<p>Falla del hormigón </p>
+</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="200" height="20">Resistencia a la tracción</td>
+<td width="200" height="20">23 N/mm2</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="200" height="20">Punto de transición al vidrio*</td>
+<td width="200" height="20">80°C</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="200" height="20">Resistencia a la compresión</td>
+<td bgcolor="#e9e9e9" width="200" height="20">75N/mm2</td>
+</tr>
+</tbody>
+</table></div>
+<h2><span style="color: #135cae; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 1.3em;">Table No. 3: Technical data of the epoxy formulation Carbostrip</span></h2>
+<h2> </h2>
+<p>Adcos CARBOSTRIP SYSTEM. SCHEME OF WORK TO DO</p>
+<p>Adcos Carbotex System</p>
+<p>Because of different requirements for tissue reinforcement in composite construction are also used in the form of cloth bonded with an epoxy resin. Adcos Carbotex having carbon fiber fabrics and fibers, respectively, unidirectional fiberglass, high strength and high modulus.</p>
+<p>Are saturated at work using the epoxy system Carbotex systems for forming fiber reinforced polymer (FRP) used for reinforcing structural elements.</p>
+<p>Among its main applications, highlighting the flexural reinforcement, and compression to cut structural elements of reinforced and prestressed concrete such as beams, columns or walls in buildings, bridges, tunnels, tanks, parking lots, docks, industrial plants, water , energy, etc.. for the following reasons:</p>
+<div class="table-wrap"><table style="width: 481px;" border="1" cellspacing="0" cellpadding="3">
+<tbody>
+<tr>
+<td colspan="3" bgcolor="#666666" height="25">Propiedades de la lámina curada</td>
+</tr>
+<tr>
+<td width="133" height="20"> </td>
+<td width="133" height="20">Carbotex UD 200</td>
+<td width="134" height="20">Carbotex UD 300</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20">Resistencia a la tracción</td>
+<td width="133" height="20">&gt;450 kN/m</td>
+<td width="134" height="20">&gt;450 kN/m</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="133" height="20">Módulo de elasticidad</td>
+<td width="133" height="20">&gt;236 Gpa</td>
+<td width="134" height="20">&gt;236 Gpa</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20">Grosor</td>
+<td width="133" height="20">0,3 mm</td>
+<td width="134" height="20">0,4 mm</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td width="133" height="20">Peso por metro cuadrado</td>
+<td width="133" height="20">200 g/m2</td>
+<td width="134" height="20">300 g/m2</td>
+</tr>
+<tr bgcolor="#cccccc">
+<td width="133" height="20">Elasticidad</td>
+<td width="133" height="20">&gt;1,6%</td>
+<td width="134" height="20">&gt;1,6%</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td height="20">Longitud por rollo</td>
+<td height="20">250 m</td>
+<td height="20">250 m</td>
+</tr>
+<tr bgcolor="#e9e9e9">
+<td height="20">Ancho</td>
+<td height="20">300 mm</td>
+<td height="20">300 mm</td>
+</tr>
+</tbody>
+</table></div>
+
+<p align="justify">CONCLUSIONS</p>
+<p align="justify"> It can be seen advancing this technology by many tangible advantages: shorter commissioning work (as desired property in many jobs today), retail operators amount work dispensability of skilled and struts and scaffolding work special support, excellent mechanical and chemical resistance, etc.. All this is in fact a general economy in the transport, assembly, maintenance of the structure, etc.., Which could not be visualized by the high initial cost of using CFRP strips and woven fibers.</p>
+<p align="justify">The use of these technologies in Argentina is quite recent, although there are already many works executed. However in the U.S. and Japan have been working for years with such products; Switzerland also researched, developed and implemented this system in a lot of work and, in hindsight, was introduced in the rest of Europe. A South American level, Colombia leads the field of innovations in reinforcing structures with CFRP numerous works (bridges, office buildings and parking lots).</p>
+<p align="justify">This method of reinforcement is a tool that the structuralist engineer has at its disposal to reach the technical-economical solution that best suits the conditions, failures and evident in each particular case to resolve technologies.</p>
+<p align="justify"> </p></article><section class="related"><h2>Structural Reinforcement Articles</h2><div class="cards"><article class="card"><a href="/en/articles/structural-reinforcement/425-rehabilitation-bridges/"><div class="card-img"><img loading="lazy" src="/images/puente.jpg" alt=""></div><div class="card-body"><p class="card-cat">Structural reinforcement articles</p><h3>Rehabilitation of Bridges and Footbridges</h3><p>Rehabilitatión bridgeOjos de Agua, Los Andes. The rehabilitation in structures by the degradation or decreased resistance capacity. The road infrastructure is continuously degraded and...</p><span class="more">Read more</span></div></a></article><article class="card"><a href="/en/articles/structural-reinforcement/366-post-tensioned-flat/"><div class="card-img"><img loading="lazy" src="/images/Refuerzolosapostensada.jpg" alt=""></div><div class="card-body"><p class="card-cat">Structural reinforcement articles</p><h3>Reinforcement of post-tensioned flat slab </h3><p>Punching shear reinforcement in post-tensioned flat slab It is common to see problems punching shear in flat slabs post-tensioned. Generally this type of problem...</p><span class="more">Read more</span></div></a></article><article class="card"><a href="/en/articles/structural-reinforcement/360-reinforce-posttensioned-slab/"><div class="card-img"><img loading="lazy" src="/images/Aplicaciones/losaplana.jpg" alt=""></div><div class="card-body"><p class="card-cat">Structural reinforcement articles</p><h3>Reinforcement in post-tensioned flat slab</h3><p>It is common to see problems punching shear in flat slabs post-tensioned. Generally this type of problem is in the pillars. The structural carbon...</p><span class="more">Read more</span></div></a></article></div></section><aside class="cta"><p>Let's talk about your project</p><a class="btn" href="/en/contact/">Contact us</a></aside>
+</main>
+<footer class="site-footer"><div class="wrap footer-grid">
+<div><h2>Services</h2><ul class="flist"><li><a href="/en/services/i-d-i-service/">I+D+I</a></li><li><a href="/en/services/industrial-revetment/">Industrial Revetment </a></li><li><a href="/en/services/structural-repairs/">Structural Repair</a></li><li><a href="/en/services/structural-reinforcement/">Structural Reinforcement</a></li><li><a href="/en/services/carbon-fiber/">Carbon Fiber</a></li><li><a href="/en/services/heritage-reinstatement/">Heritage Reinstatement</a></li><li><a href="/en/services/polished-concrete-floor/">Polished Concrete Floor</a></li></ul></div>
+<div><h2>Articles</h2><ul class="flist"><li><a href="/en/articles/carbon-fiber/398-carbon-fiber-beams/">Advantages of use carbon fiber in beams</a></li><li><a href="/en/articles/structural-reinforcement/373-carbon-fiber-pillars/">Advantages of use carbon fiber in pillars</a></li><li><a href="/en/articles/i-d-i/377-anchorage-designs/">Anchorage designs carbon fiber.</a></li><li><a href="/en/articles/structural-reinforcement/352-anchorage-detail/">Anchorage Detail</a></li></ul></div>
+<div><h2>Address</h2><address><strong>Elementa Soluciones Estructurales LTDA.</strong><br>San Antonio 19, Torre Alameda, Oficina 2201<br>Santiago Centro, Región Metropolitana, Chile<br>
+Phone: <a href="tel:+56229587552">+562 2958 7552</a><br>Email: <a href="mailto:ingenieria@elementabdl.cl">ingenieria@elementabdl.cl</a></address>
+<a class="wa-link" href="https://api.whatsapp.com/send?phone=56229587556&text=Hello%2C%20I%20would%20like%20more%20information%20about%20your%20services" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.5-.3z"/></svg><span>Message us on WhatsApp</span></a></div>
+</div><div class="copy"><div class="wrap">All rights reserved © 2005 - 2026 Elementa Soluciones Estructurales con Fibra de Carbono, a Grupo BDL company</div></div></footer>
+<a class="wa-float" href="https://api.whatsapp.com/send?phone=56229587556&text=Hello%2C%20I%20would%20like%20more%20information%20about%20your%20services" target="_blank" rel="noopener" aria-label="Message us on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.5-.3z"/></svg></a>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
