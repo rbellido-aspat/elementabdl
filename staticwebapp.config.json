@@ -32,31 +32,6 @@
    "statusCode": 301
   },
   {
-   "route": "/en/home-2",
-   "redirect": "/en/",
-   "statusCode": 301
-  },
-  {
-   "route": "/en/services/carbon-fiber/313-carbon-fiber-repairs",
-   "redirect": "/en/services/carbon-fiber/",
-   "statusCode": 301
-  },
-  {
-   "route": "/en/services/heritage-reinstatement/314-heritage-reinstatement",
-   "redirect": "/en/services/heritage-reinstatement/",
-   "statusCode": 301
-  },
-  {
-   "route": "/en/services/rental-machinery-equipment",
-   "redirect": "/en/services/",
-   "statusCode": 301
-  },
-  {
-   "route": "/en/services/structural-reinforcement/310-structural-reinforcement-tecnic",
-   "redirect": "/en/services/structural-reinforcement/",
-   "statusCode": 301
-  },
-  {
    "route": "/home-3",
    "redirect": "/",
    "statusCode": 301
@@ -98,7 +73,7 @@
   },
   {
    "route": "/index.php/articulos/revestimiento-industrial",
-   "redirect": "/articulos/revestimiento-industrial/",
+   "redirect": "/articulos/",
    "statusCode": 301
   },
   {
@@ -123,37 +98,37 @@
   },
   {
    "route": "/index.php/en",
-   "redirect": "/en/",
+   "redirect": "/",
    "statusCode": 301
   },
   {
    "route": "/index.php/en/articles",
-   "redirect": "/en/articles/",
+   "redirect": "/",
    "statusCode": 301
   },
   {
    "route": "/index.php/en/company",
-   "redirect": "/en/company/",
+   "redirect": "/",
    "statusCode": 301
   },
   {
    "route": "/index.php/en/contact",
-   "redirect": "/en/contact/",
+   "redirect": "/",
    "statusCode": 301
   },
   {
    "route": "/index.php/en/faq-en",
-   "redirect": "/en/faq-en/",
+   "redirect": "/",
    "statusCode": 301
   },
   {
    "route": "/index.php/en/projects",
-   "redirect": "/en/projects/",
+   "redirect": "/",
    "statusCode": 301
   },
   {
    "route": "/index.php/en/services",
-   "redirect": "/en/services/",
+   "redirect": "/",
    "statusCode": 301
   },
   {
@@ -173,7 +148,7 @@
   },
   {
    "route": "/index.php/faq/revestimientos-industriales",
-   "redirect": "/faq/revestimientos-industriales/",
+   "redirect": "/faq/",
    "statusCode": 301
   },
   {
@@ -243,7 +218,7 @@
   },
   {
    "route": "/index.php/servicios/revestimiento-industrial",
-   "redirect": "/servicios/revestimiento-industrial/",
+   "redirect": "/servicios/",
    "statusCode": 301
   },
   {
@@ -253,22 +228,22 @@
   },
   {
    "route": "/proyectos/habitacional/418-revestimiento-piscina-poliurea",
-   "redirect": "/proyectos/habitacional/418-revestimiento-industrial-piscina-poliurea/",
+   "redirect": "/proyectos/",
    "statusCode": 301
   },
   {
    "route": "/proyectos/industrial/415-revestimiento-poliurea-truck-shop-el-teniente-codelco",
-   "redirect": "/proyectos/industrial/415-revestimiento-poliurea-elteniente/",
+   "redirect": "/proyectos/",
    "statusCode": 301
   },
   {
    "route": "/proyectos/industrial/416-revestimiento-poliurea-salas-pasillos",
-   "redirect": "/proyectos/industrial/416-revestimiento-poliurea-salas/",
+   "redirect": "/proyectos/",
    "statusCode": 301
   },
   {
    "route": "/proyectos/industrial/417-revestimiento-pasillos-tecnicos-costanera-center",
-   "redirect": "/proyectos/industrial/417-revestimiento-costanera-center/",
+   "redirect": "/proyectos/",
    "statusCode": 301
   },
   {
@@ -304,6 +279,91 @@
   {
    "route": "/servicios/rehabilitacion-patrimonial/259-rehabilitacion-patrimonial",
    "redirect": "/servicios/rehabilitacion-patrimonial/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/fibra-de-carbono/106-sika-carbodur-adcos",
+   "redirect": "/articulos/fibra-de-carbono/106-sika-carbodur-laminados-cfrp/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/i-d/442-elementa-woc-2015",
+   "redirect": "/articulos/i-d/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/reparacion-estructural/430-recubrimiento-estanques-hormigon",
+   "redirect": "/articulos/reparacion-estructural/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/revestimiento-industrial",
+   "redirect": "/articulos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/revestimiento-industrial/168-incremento-resistencia-corrosion",
+   "redirect": "/articulos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/revestimiento-industrial/419-poliurea-revestimiento",
+   "redirect": "/articulos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/revestimiento-industrial/420-soluciones-obsoletas-revestimiento",
+   "redirect": "/articulos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/articulos/revestimiento-industrial/444-poliurea-pura-poliurea-mixta",
+   "redirect": "/articulos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/faq/laminas-de-fibra-de-carbono/23-revestimiento-estetico",
+   "redirect": "/faq/",
+   "statusCode": 301
+  },
+  {
+   "route": "/faq/revestimientos-industriales",
+   "redirect": "/faq/",
+   "statusCode": 301
+  },
+  {
+   "route": "/proyectos/habitacional/418-revestimiento-industrial-piscina-poliurea",
+   "redirect": "/proyectos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/proyectos/industrial/415-revestimiento-poliurea-elteniente",
+   "redirect": "/proyectos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/proyectos/industrial/416-revestimiento-poliurea-salas",
+   "redirect": "/proyectos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/proyectos/industrial/417-revestimiento-costanera-center",
+   "redirect": "/proyectos/",
+   "statusCode": 301
+  },
+  {
+   "route": "/servicios/revestimiento-industrial",
+   "redirect": "/servicios/",
+   "statusCode": 301
+  },
+  {
+   "route": "/en",
+   "redirect": "/",
+   "statusCode": 301
+  },
+  {
+   "route": "/en/*",
+   "redirect": "/",
    "statusCode": 301
   }
  ],

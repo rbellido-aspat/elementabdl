@@ -1,5 +1,4 @@
 User-agent: *
 Disallow: /assets/search-es.json
-Disallow: /assets/search-en.json
 
 Sitemap: https://www.elementabdl.cl/sitemap.xml
