@@ -1,4 +1,26 @@
+# www.elementabdl.cl
+# Buscadores (Googlebot, Bingbot y el resto)
 User-agent: *
 Disallow: /assets/search-es.json
+
+# Busqueda y citacion en herramientas de IA: permitido
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+Allow: /
+Disallow: /assets/search-es.json
+
+# Entrenamiento de modelos de IA: no autorizado
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: meta-externalagent
+User-agent: Bytespider
+Disallow: /
 
 Sitemap: https://www.elementabdl.cl/sitemap.xml
