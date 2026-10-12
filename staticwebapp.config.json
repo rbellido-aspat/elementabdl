@@ -357,6 +357,16 @@
    "statusCode": 301
   },
   {
+   "route": "/es",
+   "redirect": "/",
+   "statusCode": 301
+  },
+  {
+   "route": "/es/*",
+   "redirect": "/",
+   "statusCode": 301
+  },
+  {
    "route": "/en",
    "redirect": "/",
    "statusCode": 301
