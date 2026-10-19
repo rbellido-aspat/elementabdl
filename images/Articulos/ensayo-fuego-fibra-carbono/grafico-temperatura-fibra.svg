@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="Lato,Calibri,Arial,sans-serif" font-size="14" role="img" aria-label="Temperatura en la cara posterior de la fibra de carbono durante el ensayo de llama directa">
+<rect width="760" height="420" fill="#fff"/>
+<line x1="64" x2="736" y1="362.0" y2="362.0" stroke="#e3e3e3"/><text x="56" y="367.0" text-anchor="end" fill="#4a4a4a">0</text>
+<line x1="64" x2="736" y1="297.6" y2="297.6" stroke="#e3e3e3"/><text x="56" y="302.6" text-anchor="end" fill="#4a4a4a">40</text>
+<line x1="64" x2="736" y1="233.2" y2="233.2" stroke="#e3e3e3"/><text x="56" y="238.2" text-anchor="end" fill="#4a4a4a">80</text>
+<line x1="64" x2="736" y1="168.8" y2="168.8" stroke="#e3e3e3"/><text x="56" y="173.8" text-anchor="end" fill="#4a4a4a">120</text>
+<line x1="64" x2="736" y1="104.39999999999998" y2="104.39999999999998" stroke="#e3e3e3"/><text x="56" y="109.39999999999998" text-anchor="end" fill="#4a4a4a">160</text>
+<line x1="64" x2="736" y1="40.0" y2="40.0" stroke="#e3e3e3"/><text x="56" y="45.0" text-anchor="end" fill="#4a4a4a">200</text>
+<text x="64.0" y="384" text-anchor="middle" fill="#4a4a4a">0</text>
+<text x="176.0" y="384" text-anchor="middle" fill="#4a4a4a">20</text>
+<text x="288.0" y="384" text-anchor="middle" fill="#4a4a4a">40</text>
+<text x="400.0" y="384" text-anchor="middle" fill="#4a4a4a">60</text>
+<text x="512.0" y="384" text-anchor="middle" fill="#4a4a4a">80</text>
+<text x="624.0" y="384" text-anchor="middle" fill="#4a4a4a">100</text>
+<text x="736.0" y="384" text-anchor="middle" fill="#4a4a4a">120</text>
+<line x1="64" x2="736" y1="362.0" y2="362.0" stroke="#4a4a4a"/>
+<text x="400.0" y="408" text-anchor="middle" fill="#222">Tiempo de exposición a la llama (min)</text>
+<text transform="translate(18 201.0) rotate(-90)" text-anchor="middle" fill="#222">Temperatura (°C)</text>
+<polyline points="64.0,326.6 92.0,268.6 120.0,241.2 148.0,217.1 176.0,205.8 204.0,192.9 232.0,184.9 260.0,183.3 288.0,184.9 316.0,184.9 344.0,184.9 400.0,168.8 456.0,136.6 512.0,120.5 568.0,104.4 624.0,83.5 680.0,80.2 736.0,67.4" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+<polyline points="64.0,326.6 92.0,286.3 120.0,228.4" fill="none" stroke="#b51a1d" stroke-width="3"/>
+<circle cx="64.0" cy="326.58" r="4" fill="#b51a1d"/>
+<circle cx="92.0" cy="286.33" r="4" fill="#b51a1d"/>
+<circle cx="120.0" cy="228.37" r="4" fill="#b51a1d"/>
+<circle cx="64.0" cy="326.58" r="3.5" fill="#2b2b2b"/>
+<circle cx="92.0" cy="268.62" r="3.5" fill="#2b2b2b"/>
+<circle cx="120.0" cy="241.25" r="3.5" fill="#2b2b2b"/>
+<circle cx="148.0" cy="217.1" r="3.5" fill="#2b2b2b"/>
+<circle cx="176.0" cy="205.83" r="3.5" fill="#2b2b2b"/>
+<circle cx="204.0" cy="192.95" r="3.5" fill="#2b2b2b"/>
+<circle cx="232.0" cy="184.89999999999998" r="3.5" fill="#2b2b2b"/>
+<circle cx="260.0" cy="183.29" r="3.5" fill="#2b2b2b"/>
+<circle cx="288.0" cy="184.89999999999998" r="3.5" fill="#2b2b2b"/>
+<circle cx="316.0" cy="184.89999999999998" r="3.5" fill="#2b2b2b"/>
+<circle cx="344.0" cy="184.89999999999998" r="3.5" fill="#2b2b2b"/>
+<circle cx="400.0" cy="168.8" r="3.5" fill="#2b2b2b"/>
+<circle cx="456.0" cy="136.60000000000002" r="3.5" fill="#2b2b2b"/>
+<circle cx="512.0" cy="120.5" r="3.5" fill="#2b2b2b"/>
+<circle cx="568.0" cy="104.39999999999998" r="3.5" fill="#2b2b2b"/>
+<circle cx="624.0" cy="83.47000000000003" r="3.5" fill="#2b2b2b"/>
+<circle cx="680.0" cy="80.25" r="3.5" fill="#2b2b2b"/>
+<circle cx="736.0" cy="67.37" r="3.5" fill="#2b2b2b"/>
+<line x1="120.0" y1="222.37" x2="108.8" y2="155.92" stroke="#b51a1d"/><text x="75.2" y="146.26" fill="#b51a1d" font-weight="700">Sin protección: 83 °C, la fibra se inflama</text>
+<text x="736.0" y="55.370000000000005" text-anchor="end" fill="#2b2b2b" font-weight="700">Con intumescente: 183 °C a 120 min</text>
+</svg>

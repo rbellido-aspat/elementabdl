@@ -214,3 +214,12 @@ address{font-style:normal;line-height:1.8}
 .anim figcaption{padding:8px 10px;font-size:.9rem;font-weight:700}
 .fbtns a{margin-right:14px}
 @media (max-width:560px){.person{flex-direction:column}.anim-grid{grid-template-columns:repeat(2,1fr);gap:10px}}
+/* artículo ensayo de fuego, octubre 2026 */
+.fig{margin:1.4em 0}
+.fig img{display:block;border-radius:var(--radius)}
+.fig figcaption{font-size:.9rem;color:var(--muted);margin-top:6px}
+.fig-pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:1.4em 0}
+.fig-pair .fig{margin:0}
+.byline{color:var(--muted);font-size:.95rem}
+.datos th{background:var(--soft);text-align:left}
+.datos td{text-align:right}
